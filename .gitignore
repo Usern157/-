@@ -10,7 +10,7 @@ build/
 
 # 模型和输出文件
 outputs/models/
-outputs/predictions/
+# outputs/predictions/  # 允许上传预测结果文件
 *.bin
 *.pt
 *.pth

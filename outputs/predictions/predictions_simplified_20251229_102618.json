@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "timestamp": "20251229_102618",
+    "total_samples": 10,
+    "correct_predictions": 0,
+    "accuracy": 0.0,
+    "model_dir": "outputs/models/qwen3-riddle-caa-lora",
+    "num_samples": 10,
+    "seed": 42
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "riddle": "晓连星影出",
+      "clue": "拆字：牛；牛→牛",
+      "ground_truth": "牛",
+      "prediction": "牛",
+      "correct": false
+    },
+    {
+      "index": 1,
+      "riddle": "一生执教美名扬",
+      "clue": "拆字：巾；巾→巾",
+      "ground_truth": "帅",
+      "prediction": "帅",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "riddle": "相思心断衣不整",
+      "clue": "拆字：田 + 一 + 乚；田→田；一→一",
+      "ground_truth": "畏",
+      "prediction": "畏",
+      "correct": false
+    },
+    {
+      "index": 3,
+      "riddle": "没在石棱中",
+      "clue": "拆字：疒 + 殳；殳→殳",
+      "ground_truth": "疫",
+      "prediction": "疫",
+      "correct": false
+    },
+    {
+      "index": 4,
+      "riddle": "十两多一点",
+      "clue": "拆字：斤 + 丶；斤→斤",
+      "ground_truth": "斥",
+      "prediction": "斥",
+      "correct": false
+    },
+    {
+      "index": 5,
+      "riddle": "叶萌百亩，干可十围",
+      "clue": "拆字：木 + 匚；木→木；匚→匚",
+      "ground_truth": "柜",
+      "prediction": "柜",
+      "correct": false
+    },
+    {
+      "index": 6,
+      "riddle": "西湖春蝶翩翩舞",
+      "clue": "拆字：氵 + 亠 + 丨 + 亅 + 八 + 木；八→八；木→木",
+      "ground_truth": "滦",
+      "prediction": "滦",
+      "correct": false
+    },
+    {
+      "index": 7,
+      "riddle": "人事改革及前程",
+      "clue": "拆字：革 + ㇎ + 丿 + ㇏；革→革；谜面含：人、改",
+      "ground_truth": "靸",
+      "prediction": "靸",
+      "correct": false
+    },
+    {
+      "index": 8,
+      "riddle": "重逢",
+      "clue": "拆字：又 + 见；又→又；见→见",
+      "ground_truth": "观",
+      "prediction": "观",
+      "correct": false
+    },
+    {
+      "index": 9,
+      "riddle": "独展双联",
+      "clue": "拆字：丷 + 冂 + 二 + 丨 + 十 + 尸 + 艹 + 一 + 乚；二→二；十→十；尸→尸；一→一",
+      "ground_truth": "冁",
+      "prediction": "为",
+      "correct": false
+    }
+  ]
+}

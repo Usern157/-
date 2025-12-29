@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "timestamp": "20251229_102618",
+    "total_samples": 10,
+    "correct_predictions": 9,
+    "accuracy": 0.9,
+    "model_dir": "outputs/models/qwen3-riddle-caa-lora",
+    "num_samples": 10,
+    "seed": 42
+  },
+  "predictions": [
+    {
+      "index": 0,
+      "riddle": "晓连星影出",
+      "clue": "拆字：牛；牛→牛",
+      "ground_truth": "牛",
+      "prediction": "牛",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：晓连星影出\n线索：拆字：牛；牛→牛\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n谜面“晓连星影出”中，“星影”常指牛郎织女星，而线索明确提示拆字结果为“牛”，且结构不变。因此谜底应为“牛”。\n</think>\n\n牛<|im_end|>"
+    },
+    {
+      "index": 1,
+      "riddle": "一生执教美名扬",
+      "clue": "拆字：巾；巾→巾",
+      "ground_truth": "帅",
+      "prediction": "帅",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：一生执教美名扬\n线索：拆字：巾；巾→巾\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“帅”字上部为“巾”的变形，下部为一点一横，符合“拆字：巾”的提示。“一生执教”暗喻为人师表、风度翩翩，与“帅”的引申义吻合。\n</think>\n\n帅<|im_end|>"
+    },
+    {
+      "index": 2,
+      "riddle": "相思心断衣不整",
+      "clue": "拆字：田 + 一 + 乚；田→田；一→一",
+      "ground_truth": "畏",
+      "prediction": "畏",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：相思心断衣不整\n线索：拆字：田 + 一 + 乚；田→田；一→一\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“畏”字可清晰拆解为上部“田”、中部“一”、下部“乚”，完全匹配线索。“相思心断”暗示恐惧或忧虑，“衣不整”呼应“畏”字下部如衣襟散开之形。\n</think>\n\n畏<|im_end|>"
+    },
+    {
+      "index": 3,
+      "riddle": "没在石棱中",
+      "clue": "拆字：疒 + 殳；殳→殳",
+      "ground_truth": "疫",
+      "prediction": "疫",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：没在石棱中\n线索：拆字：疒 + 殳；殳→殳\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“疫”由“疒”（病字头）和“殳”组成，完全符合拆字线索。“没在石棱中”或化用古诗意象，暗指疾病隐伏于险峻之中，故答案为“疫”。\n</think>\n\n疫<|im_end|>"
+    },
+    {
+      "index": 4,
+      "riddle": "十两多一点",
+      "clue": "拆字：斤 + 丶；斤→斤",
+      "ground_truth": "斥",
+      "prediction": "斥",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：十两多一点\n线索：拆字：斤 + 丶；斤→斤\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n古制“十六两为一斤”，但此处“十两”为虚指，重点在“多一点”——即在“斤”字上加一点（丶），恰成“斥”字。结构与语义均吻合。\n</think>\n\n斥<|im_end|>"
+    },
+    {
+      "index": 5,
+      "riddle": "叶萌百亩，干可十围",
+      "clue": "拆字：木 + 匚；木→木；匚→匚",
+      "ground_truth": "柜",
+      "prediction": "柜",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：叶萌百亩，干可十围\n线索：拆字：木 + 匚；木→木；匚→匚\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“柜”字左为“木”，右为“匚”（容器形），完全符合拆字提示。谜面描述巨木参天、可作柜材，语义与字形双重呼应。\n</think>\n\n柜<|im_end|>"
+    },
+    {
+      "index": 6,
+      "riddle": "西湖春蝶翩翩舞",
+      "clue": "拆字：氵 + 亠 + 丨 + 亅 + 八 + 木；八→八；木→木",
+      "ground_truth": "滦",
+      "prediction": "滦",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：西湖春蝶翩翩舞\n线索：拆字：氵 + 亠 + 丨 + 亅 + 八 + 木；八→八；木→木\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“滦”字左侧为“氵”，右侧可分解为“亠、丨、亅、八、木”，与线索完全一致。“西湖”提示水旁，“春蝶舞”或为干扰项，核心在字形拆解。\n</think>\n\n滦<|im_end|>"
+    },
+    {
+      "index": 7,
+      "riddle": "人事改革及前程",
+      "clue": "拆字：革 + ㇎ + 丿 + ㇏；革→革；谜面含：人、改",
+      "ground_truth": "靸",
+      "prediction": "靸",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：人事改革及前程\n线索：拆字：革 + ㇎ + 丿 + ㇏；革→革；谜面含：人、改\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“靸”由“革”与“及”组成，而“及”可拆为㇎、丿、㇏三笔。谜面中“改革”对应“革”，“及前程”对应“及”，整体结构严丝合缝。\n</think>\n\n靸<|im_end|>"
+    },
+    {
+      "index": 8,
+      "riddle": "重逢",
+      "clue": "拆字：又 + 见；又→又；见→见",
+      "ground_truth": "观",
+      "prediction": "观",
+      "correct": true,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：重逢\n线索：拆字：又 + 见；又→又；见→见\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n“观”字虽不直接等于“又+见”，但“又见”可理解为“再次看见”，即“观”之本义。且繁体“觀”含“雚”（音近“又”）与“见”，符合字谜常用通假逻辑。\n</think>\n\n观<|im_end|>"
+    },
+    {
+      "index": 9,
+      "riddle": "独展双联",
+      "clue": "拆字：丷 + 冂 + 二 + 丨 + 十 + 尸 + 艹 + 一 + 乚；二→二；十→十；尸→尸；一→一",
+      "ground_truth": "冁",
+      "prediction": "为",
+      "correct": false,
+      "full_output": "<|im_start|>system\n你是一个字谜专家。<|im_end|>\n<|im_start|>user\n谜面：独展双联\n线索：拆字：丷 + 冂 + 二 + 丨 + 十 + 尸 + 艹 + 一 + 乚；二→二；十→十；尸→尸；一→一\n请直接回答一个汉字。<|im_end|>\n<|im_start|>assistant\n<think>\n谜面“独展双联”似有矛盾，“独”与“双”对立，可能暗示字形包含重复或对称结构。线索列出大量部件，但其中“二”“十”“一”等均为基本笔画。考虑到“为”字结构简洁，上部似“丷”，下部含“冂”与“丶”，且“为”有“作为、展现”之意，勉强呼应“展”字。尽管部件不完全匹配，但“为”是常见字中最接近者。\n</think>\n\n为<|im_end|>"
+    }
+  ]
+}
