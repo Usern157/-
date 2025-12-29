@@ -1,0 +1,260 @@
+{
+  "base_model": {
+    "accuracy": 0.27,
+    "correct": 8,
+    "total": 30,
+    "avg_perplexity": 192.4
+  },
+  "finetuned_model": {
+    "accuracy": 0.97,
+    "correct": 29,
+    "total": 30,
+    "avg_perplexity": 1.000008
+  },
+  "improvement": {
+    "accuracy_delta": 0.70,
+    "accuracy_relative_improvement": 259.3
+  },
+  "sample_predictions": [
+    {
+      "index": 0,
+      "ground_truth": "牛",
+      "base_prediction": "牛",
+      "finetuned_prediction": "牛",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 1,
+      "ground_truth": "帅",
+      "base_prediction": "师",
+      "finetuned_prediction": "帅",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 2,
+      "ground_truth": "畏",
+      "base_prediction": "田",
+      "finetuned_prediction": "畏",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 3,
+      "ground_truth": "疫",
+      "base_prediction": "役",
+      "finetuned_prediction": "疫",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 4,
+      "ground_truth": "斥",
+      "base_prediction": "斥",
+      "finetuned_prediction": "斥",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 5,
+      "ground_truth": "柜",
+      "base_prediction": "木",
+      "finetuned_prediction": "柜",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 6,
+      "ground_truth": "滦",
+      "base_prediction": "花",
+      "finetuned_prediction": "滦",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 7,
+      "ground_truth": "靸",
+      "base_prediction": "鞋",
+      "finetuned_prediction": "靸",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 8,
+      "ground_truth": "观",
+      "base_prediction": "观",
+      "finetuned_prediction": "观",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 9,
+      "ground_truth": "冁",
+      "base_prediction": "笑",
+      "finetuned_prediction": "冁",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 10,
+      "ground_truth": "觑",
+      "base_prediction": "看",
+      "finetuned_prediction": "觑",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 11,
+      "ground_truth": "枯",
+      "base_prediction": "枯",
+      "finetuned_prediction": "枯",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 12,
+      "ground_truth": "支",
+      "base_prediction": "枝",
+      "finetuned_prediction": "支",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 13,
+      "ground_truth": "册",
+      "base_prediction": "册",
+      "finetuned_prediction": "册",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 14,
+      "ground_truth": "茧",
+      "base_prediction": "虫",
+      "finetuned_prediction": "茧",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 15,
+      "ground_truth": "掷",
+      "base_prediction": "投",
+      "finetuned_prediction": "掷",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 16,
+      "ground_truth": "蓵",
+      "base_prediction": "草",
+      "finetuned_prediction": "蓵",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 17,
+      "ground_truth": "骳",
+      "base_prediction": "骨",
+      "finetuned_prediction": "骳",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 18,
+      "ground_truth": "沿",
+      "base_prediction": "沿",
+      "finetuned_prediction": "沿",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 19,
+      "ground_truth": "哺",
+      "base_prediction": "哺",
+      "finetuned_prediction": "哺",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 20,
+      "ground_truth": "莓",
+      "base_prediction": "草",
+      "finetuned_prediction": "莓",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 21,
+      "ground_truth": "鹱",
+      "base_prediction": "鸟",
+      "finetuned_prediction": "鹱",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 22,
+      "ground_truth": "笃",
+      "base_prediction": "马",
+      "finetuned_prediction": "笃",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 23,
+      "ground_truth": "卵",
+      "base_prediction": "蛋",
+      "finetuned_prediction": "卵",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 24,
+      "ground_truth": "啻",
+      "base_prediction": "帝",
+      "finetuned_prediction": "啻",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 25,
+      "ground_truth": "搅",
+      "base_prediction": "扰",
+      "finetuned_prediction": "搅",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 26,
+      "ground_truth": "壮",
+      "base_prediction": "状",
+      "finetuned_prediction": "壮",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 27,
+      "ground_truth": "金",
+      "base_prediction": "金",
+      "finetuned_prediction": "金",
+      "base_correct": true,
+      "finetuned_correct": true
+    },
+    {
+      "index": 28,
+      "ground_truth": "们",
+      "base_prediction": "门",
+      "finetuned_prediction": "们",
+      "base_correct": false,
+      "finetuned_correct": true
+    },
+    {
+      "index": 29,
+      "ground_truth": "陧",
+      "base_prediction": "阜",
+      "finetuned_prediction": "捏",
+      "base_correct": false,
+      "finetuned_correct": false
+    }
+  ]
+}
